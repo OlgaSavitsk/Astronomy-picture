@@ -1,0 +1,17 @@
+.cardSkeleton {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.container {
+  column-count: 3;
+
+  @mixin smaller-than $mantine-breakpoint-lg {
+    column-count: 2;
+  }
+
+  @mixin smaller-than $mantine-breakpoint-sm {
+    column-count: 1;
+  }
+}
