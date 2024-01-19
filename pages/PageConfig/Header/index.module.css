@@ -6,3 +6,10 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.title {
+  @mixin smaller-than $mantine-breakpoint-sm {
+    font-size: 20px;
+    text-align: right;
+  }
+}

@@ -46,7 +46,7 @@ const HomePage = () => {
 
   return (
     <>
-      <Flex gap={28}>
+      <Flex gap={28} className={classes.wrapper}>
         <Skeleton
           className={classes.datePickerSkeleton}
           height={42}

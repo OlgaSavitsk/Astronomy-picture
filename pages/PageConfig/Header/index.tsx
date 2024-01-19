@@ -16,7 +16,7 @@ const Header: FC = () => {
         fluid
       >
         <LogoImage />
-        <Title order={3}>Astronomy Picture of the Day</Title>
+        <Title order={3} className={classes.title}>Astronomy Picture of the Day</Title>
       </Container>
     </LayoutHeader>
   );

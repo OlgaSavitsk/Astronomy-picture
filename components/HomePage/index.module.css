@@ -12,6 +12,12 @@
   padding-bottom: 15px;
 }
 
+.wrapper {
+  @mixin smaller-than $mantine-breakpoint-sm {
+    flex-direction: column;
+  }
+}
+
 .container {
   position: relative;
   width: 100%;
